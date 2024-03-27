@@ -47,7 +47,7 @@ Take 0611-Gemini_df_resnet56-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-Ar
 **The Gemini DF-ResNet is soon to be available in Wespeaker (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). We encourage using the version provided by Wespeaker for better compatibility.** 
 
 Alternatively, you can follow the steps below to reproduce the provided checkpoint:
-  1. Set up Wespeaker Toolkit.
+  1. Set up Wespeaker Toolkit (https://github.com/wenet-e2e/wespeaker).
   2. Copy the model file, Gemini_df_resnet.py, from this repository to wespeaker/wespeaker/models/
   3. Modify wespeaker/wespeaker/models/speaker_model.py by adding
        ```
