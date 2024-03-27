@@ -1,5 +1,5 @@
 # Golden-Gemini-for-Speaker-Verification
-Official release of pretrained models and scripts for 'Golden Gemini Is All You Need: Finding the Sweet Spots for Speaker Verification'
+Official release of pretrained models and scripts for 'Golden Gemini Is All You Need: Finding the Sweet Spots for Speaker Verification' accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2024.
 
 arXiv Link: https://arxiv.org/abs/2312.03620
 
@@ -15,9 +15,9 @@ arXiv Link: https://arxiv.org/abs/2312.03620
 |  Model               | Param | Large Margin Fine-Tuning | Vox1-O EER | Vox1-O MinDCF | Vox1-E EER | Vox1-E MinDCF | Vox1-H EER | Vox1-H MinDCF | Pretained Model Folder                                                                                |
 |----------------------|-------|--------------------------|------------|---------------|------------|---------------|------------|---------------|-------------------------------------------------------------------------------------------------------|
 |  Gemini DF-ResNet60 [[Google Drive]](https://drive.google.com/file/d/1zfck1eEOFCxGonRRxUzsLKeruwv4f-kU/view?usp=sharing)  | 4.05  |  X                       | 0.941      | 0.089         | 1.051      | 0.116         | 1.799      | 0.166         | 0611-Gemini_df_resnet56-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165     |
-|  Gemini DF-ResNet114 | 6.53  |  X                       | 0.686      | 0.067         | 0.863      | 0.097         | 1.490      | 0.144         | 0615-Gemini_df_resnet110-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165    |
-|  Gemini DF-ResNet183 | 9.20  |  X                       | 0.596      | 0.065         | 0.806      | 0.090         | 1.440      | 0.137         | 0621-Gemini_df_resnet179-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165    |
-|  [New] Gemini DF-ResNet183 | 9.20  | ✔                        | 0.569      | 0.045         | 0.768      | 0.078         | 1.342      | 0.126         | 0621-Gemini_df_resnet179-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165-LM |
+|  Gemini DF-ResNet114 [[Google Drive]](https://drive.google.com/file/d/1hruxkctjIzzUkooXikExb3if8wurR6pv/view?usp=sharing) | 6.53  |  X                       | 0.686      | 0.067         | 0.863      | 0.097         | 1.490      | 0.144         | 0615-Gemini_df_resnet110-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165    |
+|  Gemini DF-ResNet183 [[Google Drive]](https://drive.google.com/file/d/1Bb1VaD8ZoUREoRoQ73oiCXjIJ21SuKLS/view?usp=drive_link) | 9.20  |  X                       | 0.596      | 0.065         | 0.806      | 0.090         | 1.440      | 0.137         | 0621-Gemini_df_resnet179-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165    |
+|  [New] Gemini DF-ResNet183 [[Google Drive]](https://drive.google.com/file/d/1rEb5UpeOvirCt9mhIW54BRAd-6EF3n_c/view?usp=drive_link) | 9.20  | ✔                        | 0.569      | 0.045         | 0.768      | 0.078         | 1.342      | 0.126         | 0621-Gemini_df_resnet179-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-ArcMargin-AdamW-epoch165-LM |
 
 *: The layer count between the names of the pretrained model folder and the model itself differs by 4, as mentioned in footnote 4 of the paper, where the distinction lies in whether to include the 4 separate downsampling layers in the layer count.  **The models are identical, only differing in nomenclature.** During experimentation, we did not include the separate downsampling layers in the layer count; however, through discussion during paper writing, we decided to include. **Therefore, Gemini DF-ResNet60/114/183 are the official name.**
 
