@@ -2,6 +2,7 @@
 Official release of pretrained models and scripts for 'Golden Gemini Is All You Need: Finding the Sweet Spots for Speaker Verification'
 
 arXiv Link: https://arxiv.org/abs/2312.03620
+
 (Free access) IEEE link: TO ADD.
 
 # Note:
