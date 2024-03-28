@@ -62,7 +62,7 @@ Alternatively, you can follow the steps below to reproduce the provided checkpoi
          return getattr(Gemini_df_resnet, model_name)
        ```
   4. Create a config file following the config.yaml file in the pre-trained model folder and place it in /wespeaker/examples/voxceleb/v2/conf/
-     [Note]: Warm-up is utilized by default as indicated below, although it is not explicitly specified in the configuration file.
+     [Note]: Warm-up is not explicitly stated in the configuration file, yet it is employed by default in the Wespeaker toolkit as follows:
      ```
        warm_from_zero: False
        warm_up_epoch: 6
