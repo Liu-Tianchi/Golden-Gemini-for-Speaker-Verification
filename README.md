@@ -46,6 +46,7 @@ Take 0611-Gemini_df_resnet56-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-Ar
 
 # Usage:
 
+**[Important]**
 **The Gemini DF-ResNet is soon to be available in Wespeaker (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). We encourage using the version provided by Wespeaker for better compatibility.** 
 
 Alternatively, you can follow the steps below to reproduce the provided checkpoint:
@@ -61,7 +62,12 @@ Alternatively, you can follow the steps below to reproduce the provided checkpoi
          return getattr(Gemini_df_resnet, model_name)
        ```
   4. Create a config file following the config.yaml file in the pre-trained model folder and place it in /wespeaker/examples/voxceleb/v2/conf/
-  5. In wespeaker/examples/voxceleb/v2/run.sh, modify 'config' to point to the new config file.
+     [Note]: Warm-up is utilized by default as indicated below, although it is not explicitly specified in the configuration file.
+     ```
+       warm_from_zero: False
+       warm_up_epoch: 6
+     ```
+  6. In wespeaker/examples/voxceleb/v2/run.sh, modify 'config' to point to the new config file.
   And then you can start training and reproduce.
 
 # Cite
