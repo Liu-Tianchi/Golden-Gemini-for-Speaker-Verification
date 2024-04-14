@@ -3,7 +3,7 @@ Official release of pretrained models and scripts for 'Golden Gemini Is All You 
 
 arXiv Link: https://arxiv.org/abs/2312.03620
 
-(Free access) IEEE link: TO ADD.
+(Free access) IEEE link: https://ieeexplore.ieee.org/document/10497864
 
 # Note:
 1. Special thanks to Dr. Liu Bei for sharing the code related to DF-ResNet (https://ieeexplore.ieee.org/document/10119228).
