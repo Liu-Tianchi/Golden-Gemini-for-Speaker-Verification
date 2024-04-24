@@ -108,6 +108,13 @@ Alternatively, you can follow the steps below to reproduce the provided checkpoi
 
 (Related Work) wespeaker toolkit
 ```
+@INPROCEEDINGS{10096626,
+  author={Wang, Hongji and Liang, Chengdong and Wang, Shuai and Chen, Zhengyang and Zhang, Binbin and Xiang, Xu and Deng, Yanlei and Qian, Yanmin},
+  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Wespeaker: A Research and Production Oriented Speaker Embedding Learning Toolkit}, 
+  year={2023},
+  pages={1-5}
+}
 @article{wang4748855advancing,
   title={Advancing Speaker Embedding Learning: Wespeaker Toolkit for Research and Production},
   author={Wang, Shuai and Chen, Zhengyang and Han, Bing and Wang, Hongji and Liang, Chengdong and Zhang, Binbin and Xiang, Xu and Ding, Wen and Rohdin, Johan and Silnova, Anna and others},
