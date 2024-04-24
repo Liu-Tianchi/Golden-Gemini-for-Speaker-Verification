@@ -73,17 +73,28 @@ Alternatively, you can follow the steps below to reproduce the provided checkpoi
 # Cite
 **Golden Gemini (this work):**
 ```  
-  @article{liu2023golden,
-    title={Golden Gemini is All You Need: Finding the Sweet Spots for Speaker Verification},
-    author={Liu, Tianchi and Lee, Kong Aik and Wang, Qiongqiong and Li, Haizhou},
-    journal={arXiv preprint arXiv:2312.03620},
-    year={2023}
-  }
+@ARTICLE{10497864,
+  author={Liu, Tianchi and Lee, Kong Aik and Wang, Qiongqiong and Li, Haizhou},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
+  title={Golden Gemini is All You Need: Finding the Sweet Spots for Speaker Verification}, 
+  year={2024},
+  volume={32},
+  number={},
+  pages={2324-2337}
+}
 ```
-
-**Related Work:**
-
-DF-ResNet
+(Prior Work) RecXi (Golden Gemini is a continued research of tResNet)
+```
+@inproceedings{NEURIPS2023_9d276b0a,
+ author = {Liu, Tianchi and Lee, Kong Aik and Wang, Qiongqiong and Li, Haizhou},
+ booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+ pages = {50221--50236},
+ title = {Disentangling Voice and Content with Self-Supervision for Speaker Recognition},
+ volume = {36},
+ year = {2023}
+}
+```  
+(Related Work) DF-ResNet
 ```  
 @ARTICLE{10119228,
   author={Liu, Bei and Chen, Zhengyang and Qian, Yanmin},
@@ -95,7 +106,7 @@ DF-ResNet
 }
 ```
 
-wespeaker toolkit
+(Related Work) wespeaker toolkit
 ```
 @article{wang4748855advancing,
   title={Advancing Speaker Embedding Learning: Wespeaker Toolkit for Research and Production},
