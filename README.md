@@ -1,5 +1,5 @@
 # Golden-Gemini-for-Speaker-Verification
-Official release of pretrained models and scripts for 'Golden Gemini Is All You Need: Finding the Sweet Spots for Speaker Verification' accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2024.
+🔥🔥🔥 Official release of pretrained models and scripts for ♊ 'Golden Gemini Is All You Need: Finding the Sweet Spots for Speaker Verification' accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2024.
 
 (Free access) IEEE link: https://ieeexplore.ieee.org/document/10497864
 
@@ -50,7 +50,7 @@ Take 0611-Gemini_df_resnet56-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-Ar
 # Usage:
 
 **[Important]**
-**The Gemini DF-ResNet is now available in Wespeaker! (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). We encourage using the version provided by Wespeaker for better compatibility.**
+🔥🔥🔥 **The Gemini DF-ResNet is now available in Wespeaker! (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). We encourage using the version provided by Wespeaker for better compatibility.**
 **Additionally, you can find the large-margin finetuned pretrained models in both Pytorch and ONNX formats at: https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md**
 
 Alternatively, you can follow the steps below to reproduce the provided checkpoint:
@@ -75,7 +75,7 @@ Alternatively, you can follow the steps below to reproduce the provided checkpoi
   And then you can start training and reproduce.
 
 # Cite
-**Golden Gemini (this work):**
+🔥♊**Golden Gemini (this work):**
 ```  
 @ARTICLE{10497864,
   author={Liu, Tianchi and Lee, Kong Aik and Wang, Qiongqiong and Li, Haizhou},
