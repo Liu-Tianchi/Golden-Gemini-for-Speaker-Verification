@@ -1,13 +1,16 @@
 # Golden-Gemini-for-Speaker-Verification
 Official release of pretrained models and scripts for 'Golden Gemini Is All You Need: Finding the Sweet Spots for Speaker Verification' accepted by IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2024.
 
-arXiv Link: https://arxiv.org/abs/2312.03620
-
 (Free access) IEEE link: https://ieeexplore.ieee.org/document/10497864
 
+arXiv Link: https://arxiv.org/abs/2312.03620
+
 # Note:
-1. Special thanks to Dr. Liu Bei for sharing the code related to DF-ResNet (https://ieeexplore.ieee.org/document/10119228).
-2. The purpose of this repository is to share pretrained models in the paper. Gemini DF-ResNet is soon available on Wespeaker (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). Thanks to the Wespeaker community for their assistance, with special recognition to Dr. Wang Shuai.
+
+1. ***[Important]*** This repository is dedicated to sharing the pretrained models in our paper for connvinent usage. For training and inference, we recommend using the Gemini DF-ResNet, now available on WeSpeaker: https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2. We extend our gratitude to the WeSpeaker community for their support, with special thanks to Dr. Wang Shuai.
+
+2. Special thanks to Dr. Liu Bei for sharing the implementation details related to DF-ResNet (https://ieeexplore.ieee.org/document/10119228).
+ 
 3. [New] We also release a large-margin finetuned pretrained model.
 
 # Pretrained Models
@@ -47,7 +50,8 @@ Take 0611-Gemini_df_resnet56-emb256-fbank80-num_frms200-aug0.6-spTrue-saFalse-Ar
 # Usage:
 
 **[Important]**
-**The Gemini DF-ResNet is soon to be available in Wespeaker (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). We encourage using the version provided by Wespeaker for better compatibility.** 
+**The Gemini DF-ResNet is now available in Wespeaker! (https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2). We encourage using the version provided by Wespeaker for better compatibility.**
+**Additionally, you can find the large-margin finetuned pretrained models in both Pytorch and ONNX formats at: https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md**
 
 Alternatively, you can follow the steps below to reproduce the provided checkpoint:
   1. Set up Wespeaker Toolkit (https://github.com/wenet-e2e/wespeaker).
