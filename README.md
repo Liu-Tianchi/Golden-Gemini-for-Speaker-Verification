@@ -5,6 +5,9 @@
 
 arXiv Link: https://arxiv.org/abs/2312.03620
 
+# Update:
+Jan. 2025, **Added an inference demo script**. Considering the need for simply inference using pre-trained models, we have provided an inference demo script, inference_demo.py
+
 # Note:
 
 1. ***[Important]*** This repository is dedicated to sharing the pretrained models in our paper for connvinent usage. For training and inference, we recommend using the Gemini DF-ResNet, now available on WeSpeaker: https://github.com/wenet-e2e/wespeaker/tree/master/examples/voxceleb/v2. We extend our gratitude to the WeSpeaker community for their support, with special thanks to Dr. Wang Shuai.
